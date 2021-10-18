@@ -1,9 +1,10 @@
 import './App.css';
+import PrettyPrinter from './PrettyPrinter';
 
 function App() {
   return (
     <div className="App">
-      <h1>Hello world!</h1>
+      <PrettyPrinter />
     </div>
   );
 }
