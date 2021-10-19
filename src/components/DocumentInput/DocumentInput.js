@@ -1,12 +1,12 @@
 import { useState } from 'react';
 import './DocumentInput.css'
 
-const DocumentInput = () => {
+const DocumentInput = ({ updateText }) => {
   const [input, setInput] = useState("");
 
   const handleSubmit = (e) => {
     e.preventDefault()
-    console.log(input)
+    updateText(input)
   }
 
   return (
