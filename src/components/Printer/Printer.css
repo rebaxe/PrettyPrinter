@@ -1,0 +1,32 @@
+.textField {
+  padding: 10px;
+  width: 80%;
+  line-height: 1.5;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  box-shadow: 1px 1px 1px #999;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.textField > p {
+  display: inline-block;
+}
+
+.regular {
+  color: #333;
+}
+
+.expression {
+  color: #333;
+  font-weight: bold;
+}
+
+.question {
+  color: #333;
+  font-style: italic;
+}
+
+.indexContainer {
+  font-weight: normal;
+  opacity: 0.7;
+}
