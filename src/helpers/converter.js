@@ -1,6 +1,6 @@
-import { RegularSentence } from "@rebaxe/parser/src/RegularSentence";
-import { Expression } from "@rebaxe/parser/src/Expression";
-import { Question } from "@rebaxe/parser/src/Question";
+import { RegularSentence } from '@rebaxe/parser/src/RegularSentence'
+import { Expression } from '@rebaxe/parser/src/Expression'
+import { Question } from '@rebaxe/parser/src/Question'
 
 export function convertSentence (sentence) {
   if (isRegular(sentence)) {
