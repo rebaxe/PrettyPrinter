@@ -1,0 +1,58 @@
+.printerContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.textField {
+  padding: 10px;
+  width: 80%;
+  min-height: 40vh;
+  line-height: 1.5;
+  border-radius: 5px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  box-shadow: 1px 1px 1px #999;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.textField > p {
+  display: inline-block;
+}
+
+.regular {
+  color: #333;
+}
+
+.expression {
+  color: #333;
+  font-weight: bold;
+}
+
+.question {
+  color: #333;
+  font-style: italic;
+}
+
+.indexContainer {
+  font-weight: normal;
+  opacity: 0.7;
+}
+
+.clearBtn {
+  width: 80%;
+  margin: 10px 0px;
+  padding: 5px;
+  border: 1px solid #ccc;
+  box-shadow: 1px 1px 1px #999;
+  font-family: 'Courier New', Courier, monospace;
+  background-color: rgb(142, 160, 160);
+  color: white;
+}
+
+.clearBtn:hover {
+  background-color: rgb(93, 105, 105);
+  cursor: pointer;
+}

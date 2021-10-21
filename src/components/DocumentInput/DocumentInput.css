@@ -1,0 +1,33 @@
+form {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+textarea {
+  resize: none;
+  padding: 10px;
+  width: 80%;
+  min-height: 40vh;
+  line-height: 1.5;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  box-shadow: 1px 1px 1px #999;
+}
+
+#submitInput {
+  width: 80%;
+  margin: 10px 0px;
+  padding: 5px;
+  border: 1px solid #ccc;
+  box-shadow: 1px 1px 1px #999;
+  font-family: 'Courier New', Courier, monospace;
+  background-color: rgb(142, 160, 160);
+  color: white;
+}
+
+#submitInput:hover {
+  background-color: rgb(93, 105, 105);
+  cursor: pointer;
+}
