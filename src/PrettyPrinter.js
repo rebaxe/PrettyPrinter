@@ -4,6 +4,7 @@ import Printer from "./components/Printer/Printer"
 import './PrettyPrinter.css'
 import { parse } from '@rebaxe/parser'
 import { Converter } from "./helpers/Converter"
+import ErrorMessage from "./components/ErrorMessage/ErrorMessage"
 
 const PrettyPrinter = () => {
   const [textInput, setTextInput] = useState('')
@@ -23,6 +24,7 @@ const PrettyPrinter = () => {
   }
 
   const handleError = (error) => {
+    setTextInput('')
     setError(error)
   }
 
@@ -37,6 +39,7 @@ const PrettyPrinter = () => {
 
   return ( 
     <div className="container">
+    {error ? <ErrorMessage error={error} handleClose={handleCloseError} /> : null}
     <h1>PrettyPrinter</h1>
     { textInput === '' 
       ? <DocumentInput updateText={updateText} />
